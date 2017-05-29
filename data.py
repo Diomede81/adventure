@@ -12,3 +12,11 @@ descriptions = {
     (1 ,1): 'This is where you go and buy food'
 }
 
+objects = {
+    (0, 0): ['Torch', 'Keys', 'Gun'],
+    (0, 1): ['Leaf','Bird','Book'],
+    (1, 0): ['Shoes','Bag','Watch'],
+    (1, 1): ['Tomatoes',"Tuna","Chips"]
+}
+
+inventory = []
