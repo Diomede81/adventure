@@ -22,4 +22,9 @@ while True:
             valid_directions[k] = possible_position
 
     direction = raw_input('which direction do you want to go? \n')
-    position = valid_directions[direction]
+    if direction in valid_directions:
+        position = valid_directions[direction]
+    else:
+        print "please select an available location"
+
+
